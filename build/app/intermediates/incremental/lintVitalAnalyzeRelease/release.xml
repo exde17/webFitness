@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.fitness"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="C:\marioA\appFitnes\fitness\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="C:\marioA\appFitnes\fitness\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0;C:\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="C:\marioA\appFitnes\fitness\build\app\intermediates\lint_vital_partial_results\release\out"
+    desugaredMethodsFiles="C:\Users\user1\.gradle\caches\transforms-3\d9571a877bfab240140dd1ec74f193c7\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin"
+        resDirectories="src\main\res"
+        assetsDirectories="src\main\assets"/>
+    <sourceProvider
+        manifest="src\release\AndroidManifest.xml"
+        javaDirectories="src\release\java;src\release\kotlin"
+        resDirectories="src\release\res"
+        assetsDirectories="src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="C:\marioA\appFitnes\fitness\build\app\intermediates\javac\release\classes;C:\marioA\appFitnes\fitness\build\app\tmp\kotlin-classes\release;C:\marioA\appFitnes\fitness\build\app\kotlinToolingMetadata;C:\marioA\appFitnes\fitness\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.fitness"
+      generatedSourceFolders="C:\marioA\appFitnes\fitness\build\app\generated\ap_generated_sources\release\out;C:\marioA\appFitnes\fitness\build\app\generated\aidl_source_output_dir\release\out;C:\marioA\appFitnes\fitness\build\app\generated\source\buildConfig\release;C:\marioA\appFitnes\fitness\build\app\generated\renderscript_source_output_dir\release\out"
+      generatedResourceFolders="C:\marioA\appFitnes\fitness\build\app\generated\res\rs\release;C:\marioA\appFitnes\fitness\build\app\generated\res\resValues\release">
+  </mainArtifact>
+</variant>
