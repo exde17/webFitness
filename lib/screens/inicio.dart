@@ -1,4 +1,3 @@
-import 'dart:ffi' as ffi;
 
 import 'package:fitness/utils/customDrawer.dart';
 import 'package:flutter/material.dart';
